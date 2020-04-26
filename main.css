@@ -38,7 +38,7 @@ footer {
   background-color: #f8f9fa;
   color: #a5cdc6;
 }
-footer p {
+footer #copyright {
   font-size: 10pt;
   text-align: right;
 }
