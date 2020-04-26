@@ -1,0 +1,75 @@
+@charset "UTF-8";
+body {
+  font-family: "Comic Neue", cursive;
+  background-color: #f8f9fa;
+  color: #f8f9fa;
+}
+body p {
+  font-size: 11pt;
+}
+body h1, body h2, body h3, body h4, body h5 {
+  font-weight: bold;
+}
+
+.carousel-item p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  color: #f8f9fa;
+  /*文字は白に*/
+  font-size: 3.5ch;
+  /*サイズ2倍*/
+}
+
+.container {
+  margin-top: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url(./images/bg.png);
+  background-repeat: repeat;
+  background-size: 100% 100%;
+}
+
+footer {
+  margin-top: 10px;
+  padding: 20pt;
+  background-color: #f8f9fa;
+  color: #a5cdc6;
+}
+footer p {
+  font-size: 10pt;
+  text-align: right;
+}
+
+.navbar-brand {
+  color: #41788a;
+}
+
+.card {
+  color: #41788a;
+}
+.card .card-header {
+  font-weight: bold;
+}
+
+.table {
+  color: #f8f9fa;
+}
+
+.card {
+  margin: 10px 0 0 0;
+}
+
+@media only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* Force table to not be like tables anymore */
+  table, thead, tbody, th, td, tr {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

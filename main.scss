@@ -1,3 +1,79 @@
-p {
-    font-size: 18pt;
+$color:#f8f9fa;
+$border-color:rgb(165, 164, 164);
+$font-blue-color:rgb(165, 205, 198);
+$font-color:rgb(65, 120, 138);
+
+body {
+    p {
+        font-size: 11pt;
+    }
+    h1, h2, h3, h4, h5{
+        font-weight: bold;
+    }
+    font-family: 'Comic Neue', cursive;
+    background-color:$color;
+    color:$color;
+}
+.carousel-item{
+    p {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+        margin:0;
+        padding:0;
+        color:$color;/*文字は白に*/
+        font-size: 3.5ch;/*サイズ2倍*/
+  }
+}
+
+.container{
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    background-image: url(./images/bg.png);
+    background-repeat: repeat;
+    background-size: 100% 100%;
+    
+}
+
+footer{
+    margin-top: 10px;
+    padding: 20pt;
+    background-color: $color;
+    color: $font-blue-color;
+    p{
+        font-size: 10pt;
+        text-align: right;
+    }
+}
+.navbar-brand{
+    color: $font-color;
+}
+.card {
+    color: $font-color;
+    .card-header {
+        font-weight: bold;
+    }
+}
+
+.table {
+    color: $color;
+}
+
+.card{
+    margin: 10px 0 0 0;
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+    }
 }
