@@ -24,8 +24,8 @@ body {
         transform: translate(-50%,-50%);
         margin:0;
         padding:0;
-        color:$color;/*文字は白に*/
-        font-size: 3.5ch;/*サイズ2倍*/
+        color:$color;
+        font-size: 3.5rem;
   }
 }
 
@@ -33,11 +33,9 @@ body {
     margin-top: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
-
     background-image: url(./images/bg.png);
     background-repeat: repeat;
     background-size: 100% 100%;
-    
 }
 
 footer{
@@ -69,11 +67,16 @@ footer{
 }
 
 @media 
-only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 1024px)  {
+only screen and (max-width: 760px)  {
 
 	/* Force table to not be like tables anymore */
 	table, thead, tbody, th, td, tr { 
 		display: block; 
+    }
+
+    .carousel-item{
+        p {
+            font-size: 1rem;
+      }
     }
 }
