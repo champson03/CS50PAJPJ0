@@ -10,19 +10,6 @@ body h1, body h2, body h3, body h4, body h5 {
   font-weight: bold;
 }
 
-.carousel-item p {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  margin: 0;
-  padding: 0;
-  color: #f8f9fa;
-  font-size: 3.5rem;
-}
-
 .container {
   margin-top: 10px;
   padding-top: 10px;
@@ -47,19 +34,29 @@ footer #copyright {
   color: #41788a;
 }
 
-.card {
-  color: #41788a;
-}
-.card .card-header {
-  font-weight: bold;
-}
-
 .table {
   color: #f8f9fa;
 }
 
 .card {
+  color: #41788a;
   margin: 10px 0 0 0;
+}
+.card .card-header {
+  font-weight: bold;
+}
+
+.carousel-item p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  color: #f8f9fa;
+  font-size: 3.5rem;
 }
 
 @media only screen and (max-width: 760px) {
