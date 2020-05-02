@@ -1,6 +1,9 @@
+footer, body {
+  background-color: #f8f9fa;
+}
+
 body {
   font-family: "Comic Neue", cursive;
-  background-color: #f8f9fa;
   color: #f8f9fa;
 }
 body p {
@@ -22,7 +25,6 @@ body h1, body h2, body h3, body h4, body h5 {
 footer {
   margin-top: 10px;
   padding: 20pt;
-  background-color: #f8f9fa;
   color: #a5cdc6;
 }
 footer #copyright {

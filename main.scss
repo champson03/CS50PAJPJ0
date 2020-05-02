@@ -2,16 +2,20 @@ $color:#f8f9fa;
 $font-blue-color:rgb(165, 205, 198);
 $font-color:rgb(65, 120, 138);
 
+%basic {
+    background-color:$color;
+}
+
 body {
+    @extend %basic;
+    font-family: 'Comic Neue', cursive;
+    color:$color;
     p {
         font-size: 11pt;
     }
     h1, h2, h3, h4, h5{
         font-weight: bold;
     }
-    font-family: 'Comic Neue', cursive;
-    background-color:$color;
-    color:$color;
 }
 
 .container{
@@ -24,9 +28,9 @@ body {
 }
 
 footer{
+    @extend %basic;
     margin-top: 10px;
     padding: 20pt;
-    background-color: $color;
     color: $font-blue-color;
     #copyright {
         font-size: 10pt;
